@@ -5,9 +5,11 @@ class Registration(models.Model):
     email=models.EmailField()
     phone=models.CharField( max_length=15)
     message=models.TextField()
+    gender=models.CharField(max_length=50)
     
     def __str__(self):
         return self.name
     
 
 # Create your models here.
+

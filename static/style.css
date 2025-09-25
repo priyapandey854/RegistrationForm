@@ -20,6 +20,12 @@ input, textarea{
     border-radius: 4px;
 
 }
+.select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 button{
     background-color: #2d89ef;
     color: #fff;
@@ -30,4 +36,8 @@ button{
 }
 button:hover{
     background-color: #1c65c8;
+
 }
+
+
+
