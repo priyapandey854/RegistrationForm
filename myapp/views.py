@@ -6,14 +6,18 @@ def home(request):
         name = request.POST.get("name")
         email = request.POST.get("email")
         phone = request.POST.get("phone")
+        gender= request.POST.get("gender")
         message = request.POST.get("message")
+        country=request.POST.get("country")
 
         # Save to database
         Registration.objects.create(
             name=name,
             email=email,
             phone=phone,
-            message=message
+            gender=gender,
+            message=message,
+            country=country
         )
 
         # Redirect to success page

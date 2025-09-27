@@ -12,6 +12,11 @@ body{
 label{
     font-weight: bold;
 }
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 input, textarea{
     width: 100%;
     padding: 8px;
@@ -20,12 +25,6 @@ input, textarea{
     border-radius: 4px;
 
 }
-.select{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 button{
     background-color: #2d89ef;
     color: #fff;
